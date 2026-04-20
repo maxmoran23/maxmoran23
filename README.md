@@ -15,7 +15,6 @@ A collection of personal projects covering autonomous agent systems, blockchain 
 
 - **Signal Forge** -- Digital asset intelligence terminal pulling on-chain data (Blockscout), market signals (Crypto.com), and social sentiment (LunarCrush) into a single monitoring surface.
 - **KYT Triage Dashboard** -- Alert triage cockpit for crypto transaction monitoring. Severity queue, drill-down on flagged addresses, filter by typology and exposure.
-- **[worldmonitor](https://github.com/maxmoran23/worldmonitor)** -- Real-time global intelligence dashboard. AI-powered news aggregation and geopolitical monitoring in a unified situational awareness interface.
 
 ## Regulatory & Compliance Tools
 
