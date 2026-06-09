@@ -8,11 +8,12 @@ A collection of personal projects covering autonomous agent systems, blockchain 
 
 ## Pinned
 
-- **[Claude Agent Fleet](https://github.com/maxmoran23/Claude-Agent-Fleet)** — Production-grade autonomous agent framework on Claude Code. Eight architectural patterns (state management, fallback chains, JIT budget throttling, self-repair, fleet evolution, execution scaffolding, quality self-rating, visual cards), four runnable Python reference agents wired to GitHub Actions, fifteen example agent specs, and companion analytical dashboards.
+- **[Claude Agent Fleet](https://github.com/maxmoran23/Claude-Agent-Fleet)** — Production-grade autonomous agent framework on Claude Code. Thirteen architectural patterns — agent kernel with local-state authority, idempotency outbox, human-gated self-modification (propose-and-gate), generated fleet registry with drift detection and deadman liveness, independent eval harness, JIT budget throttling, self-repair, fleet evolution, and more — plus five runnable Python reference agents wired to GitHub Actions, fifteen example agent specs, and companion analytical dashboards.
+- **[analyst-toolkit](https://github.com/maxmoran23/analyst-toolkit)** — Copy/paste library of prompts and output templates for AI-assisted analytical work: financial-crime, compliance, blockchain-intelligence, regulatory, research, and market analysis. Three workflows (methodology base + thin prompts, single-file standalone, browsable catalog), a multi-format Word/Excel/PDF/HTML renderer, and a dependency-free quant library in Python with a parity-tested Kotlin/JVM port.
 
 ## AI Agents & Automation
 
-- **Claude Agent Fleet** *(see above)* — JIT budget management with autonomous frequency throttling, weekly self-evolution loop with experiment tracking, multi-channel Slack orchestration, SQLite append-only data layer, canvas-based state stores for persistent inter-run memory.
+- **Claude Agent Fleet** *(see above)* — JIT budget management with declared model-policy tiers, weekly gated self-evolution loop with experiment tracking, multi-channel Slack orchestration, SQLite append-only data layer, local state-file authority with canvas display mirrors for persistent inter-run memory.
 - **Fleet Console** — Bloomberg-terminal style dashboard for monitoring agent fleet health. Composite indices, trend charts, and an agent maturity matrix. Local Express deployment.
 
 ## Blockchain Intelligence
